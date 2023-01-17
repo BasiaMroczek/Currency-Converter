@@ -18,53 +18,41 @@
 </head>
 
 <body class="body">
-    <div class="container">
-        <form class="js-form">
-            <fieldset class=form__fieldset>
-                <legend class="form__legend">
-                    <p>ONLINE CURRENCY CONVERTER</p>
-                </legend>
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">
+                ONLINE CURRENCY CONVERTER
+            </legend>
+            <p>
                 <label>
-                    <p>
-                        <span class="form__content">
-                            Amount in
-                        </span>
-                        <select class="form__select js-currencyHeld" name="currencyHeld">
-                            <option>PLN</option>
-                            <option>NOK</option>
-                            <option>EUR</option>
-                        </select>
-                </label>
-                <label>
-                    <span class="form__content">
-                        Value :
+                    <span class="form__labelText">
+                        Amount in PLN
                     </span>
-                    <input type="number" name="amountHeld" class="js-amountHeld" min="0" step="0.01" required
-                        placeholder="Enter a value">
+                    <input placeholder="Enter a value" class="form__field js-amount" type="number" min="1" name="amount"
+                        step="0.01" required>
                 </label>
-                </p>
-                <p>
-                    <label>
-                        <span class="form__content">
-                            Converted to
-                        </span>
-                        <select class="form__select js-currencyWanted" name="currencyWanted">
-                            <option>NOK</option>
-                            <option>EUR</option>
-                            <option>PLN</option>
-                        </select>
-                    </label>
-                    <label>
-                        <span class="form__content">
-                            Value :
-                            <strong class="js-result"></strong>
-                        </span>
-                    </label>
-                </p>
-            </fieldset>
-            <button class="form__button">Convert</button>
-        </form>
-    </div>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Convert to
+                    </span>
+                    <select class="form__field js-currency">
+                        <option value="NOK">NOK</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <button class="button">Convert</button>
+        <p class="button__paragraph"><strong class="js-result"> </strong>
+        </p>
+        <p>
+            <button class="button__reset" type="reset">Clear</button>
+        </p>
+    </form>
 </body>
 
 </html>
