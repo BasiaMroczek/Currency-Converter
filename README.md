@@ -9,11 +9,11 @@ Simple Online Currency Converter made as part of practice.
 
 ## Technologies
 <ul>
-<li>HTML<li>
-<li>CSS<li>
-<li>JavaScript<li>
-<li>CamelCase naming convention<li>
-<li>BEM convection<li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>CamelCase naming convention</li>
+<li>BEM convection</li>
 </ul>
 
 ## Link to App
