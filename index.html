@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sarpanch:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Online Currency Converter</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="js-form">
+            <fieldset class=form__fieldset>
+                <legend class="form__legend">
+                    <p>ONLINE CURRENCY CONVERTER</p>
+                </legend>
+                <label>
+                    <p>
+                        <span class="form__content">
+                            Amount in
+                        </span>
+                        <select class="form__select js-currencyHeld" name="currencyHeld">
+                            <option>PLN</option>
+                            <option>NOK</option>
+                            <option>EUR</option>
+                        </select>
+                </label>
+                <label>
+                    <span class="form__content">
+                        Value :
+                    </span>
+                    <input type="number" name="amountHeld" class="js-amountHeld" min="0" step="0.01" required
+                        placeholder="Enter a value">
+                </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__content">
+                            Converted to
+                        </span>
+                        <select class="form__select js-currencyWanted" name="currencyWanted">
+                            <option>NOK</option>
+                            <option>EUR</option>
+                            <option>PLN</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span class="form__content">
+                            Value :
+                            <strong class="js-result"></strong>
+                        </span>
+                    </label>
+                </p>
+            </fieldset>
+            <button class="form__button">Convert</button>
+        </form>
+    </div>
+</body>
+
+</html>
