@@ -14,7 +14,7 @@ Simple Online Currency Converter made as part of practice.
 <li>JavaScript<li>
 <li>CamelCase naming convention<li>
 <li>BEM convection<li>
-<ul>
+</ul>
 
 ## Link to App
 https://basiamroczek.github.io/Currency-Converter/
