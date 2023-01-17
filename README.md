@@ -20,4 +20,4 @@ Simple Online Currency Converter made as part of practice.
 https://basiamroczek.github.io/Currency-Converter/
 
 ## Application view
-<img src="https://i.postimg.cc/cJJ4Fzx9/currency-Converter-View.png" width="50%" height="50%"></img>
+<img src="https://i.postimg.cc/y6mF8BjM/currency-Converter-View.png" width="50%" height="50%"></img>
