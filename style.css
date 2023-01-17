@@ -13,18 +13,23 @@ html {
     max-width: 650px;
     margin: 10px auto;
     padding: 20px;
+    background-image: url("https://i.postimg.cc/ZRTCWZMq/money-transparent-background-17.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .form__fieldset {
     border: solid black;
     border-width: 2px 8px 2px 8px;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.781);
+    float: center;
 }
 
 .form__legend {
     font-size: 20px;
     letter-spacing: 5px;
-    padding: 10px;
+    font-weight: bold;
 }
 
 .form__text {
